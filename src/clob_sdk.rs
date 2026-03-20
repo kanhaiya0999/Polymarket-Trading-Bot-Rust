@@ -410,7 +410,7 @@ pub fn update_balance_allowance(handle: u64, token_id: &str, asset_type: &str) -
         );
     }
     Ok(())
-
+}
 
 pub fn tick_size(handle: u64, token_id: &str) -> Result<String> {
     let lib = load_lib()?;
